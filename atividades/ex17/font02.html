@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        
+        @font-face {
+            font-family:"VanillaRavioli_Demo";
+            src: url("VanillaRavioli_Demo.ttf") format("truetype"), url("VanillaRavioli_Demo.otf") format(opentype);
+            font-weight:normal;
+            font-style: normal;
+        }
+             
+          /*    
+              TIPOS DE FORMAT()
+              - opentype(otf)
+              - truetype(ttf)
+              - embeddeb-opentype
+              - truetype-aat (Apple Advanced Typography)          
+              - svg
+          */
+              
+        body { 
+            font-family:"VanillaRavioli_Demo";
+        }
+        h1 { 
+            font-family: "VanillaRavioli_Demo"; size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque omnis assumenda amet magni, minus aliquam dolor blanditiis porro fuga dolorem accusantium sunt nobis, incidunt velit. Culpa necessitatibus soluta quia dolorum!</p>
+    
+</body>
+</html>

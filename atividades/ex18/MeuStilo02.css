@@ -1,0 +1,40 @@
+@charset "UTF-08";
+
+body{background-color: rgb(58, 59, 59)
+    ; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+    h1{
+    color: rgb(251, 246, 246);
+    }
+
+    h1#principal{
+
+        text-align: center; background-color: black; color: rgb(4, 213, 245);
+    }
+
+    h2{
+     color: white;
+    }
+
+    .básico{
+          color: rgb(1, 250, 5);
+    }
+
+    .intermediário{
+         color: rgb(255, 247, 0);
+
+    }
+
+    .avançado{
+         color: rgb(255, 0, 0) ;   
+    }
+
+    p{
+        color: white;
+    }
+
+    /*
+       em html é id = css é #
+       em html é class = css é .
+    
+    */
